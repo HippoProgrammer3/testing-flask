@@ -74,7 +74,7 @@ def buy():
         url = f"https://unbelievaboat.com/api/v1/guilds/{guild_id}/users/{user_id}/inventory"
 
         payload = {
-            "item_id": f{item_id},
+            "item_id": item_id,
             "quantity": amount
         }
         headers = {
